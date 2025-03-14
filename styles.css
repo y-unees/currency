@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #06566e;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    background-color: var(--forth-color);
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    width: 90px;
+    height: auto;
+}
+
+.header h1 {
+    margin: 0.5rem 0 0;
+    font-size: 1.5rem;
+}
+
+.container {
+    background: #AAB99A;
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.converter i {
+    font-size: 24px;
+    color: #007bff;
+    margin: 0 10px;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+button {
+    background: #06566e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #083e4e;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #083e4e;
+}
+
+#amount {
+    width: 85%;
+}

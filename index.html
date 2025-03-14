@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="icon" type="image/x-icon" href="/images/apple-touch-icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <a href="https://unishdhungana.com.np"><img src="images/logo-white.png" alt="unish-dhungana"></a>
+    </div>
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <input type="number" id="amount" placeholder="Enter amount" value="1">
+        <div class="converter">
+            <select id="fromCurrency"></select>
+            <i class="fa-solid fa-money-bill-transfer"></i>
+            <select id="toCurrency"></select>
+            <button onclick="convert()">Convert</button>
+        </div>
+        <h3 id="result">Converted Amount: --</h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
