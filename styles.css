@@ -93,7 +93,7 @@ h3 {
 .back-button {
     display: inline-block;
     padding: 12px 30px;
-    width: 200px;
+    width: 100px;
     margin-top: 10px;
     background-color: var(--forth-color); 
     color: var(--tertiary-color); 
