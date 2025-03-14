@@ -113,3 +113,18 @@ h3 {
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); 
     transform: translateY(-3px);
 }
+
+@media (max-width:700px) {
+    .container {
+        padding: 1px;
+    }
+
+    .back-button{
+        width: 180px;
+        font-size: 13px;
+    }
+
+    .back-button:hover {
+        transform: translateY(0);
+    }
+}
